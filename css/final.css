@@ -1,0 +1,151 @@
+
+body {
+    background-color: #8C5230;
+}
+#pagina {
+    width: 100%;
+    height: auto;
+    margin: 0px auto;
+    background-color: black;
+    font-family: monospace;
+
+}
+#cadastro{
+    width: 80%;
+    height: auto;
+    background-color: #BFA799;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#titulo{
+    font-size: xx-large;
+    font-family: monospace;
+    color: aliceblue;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(169, 118, 75);
+    background: rgb(169, 118, 75,0.7);
+    line-height: 40px;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+header a {
+
+    width: 100px;
+    height: auto;
+    padding: 20px;
+    font-weight: bold;
+    border-radius: 50px;
+    border: 3px solid white;
+    color: white;
+    font-family: monospace;
+    margin: 10px;
+    
+}
+#conteudo{
+    width: 100%;
+    height: auto;
+    background-image: url(../img/fundocadas.jpg);
+    background-size:cover ;
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+#central {
+    width: 60%;
+    height: auto;
+    display: flex;
+
+}
+
+#imgcadas {
+    width: 50%;
+    height: 100%;
+    background-color: burlywood;
+    overflow: hidden;
+    max-width: 100%;
+	-moz-transition: all 0.8s;
+	-webkit-transition: all 0.8s;
+	transition: all 0.8s;
+}
+#imgcadas img {
+    width: 100%;
+    height: 100%;
+}
+#imgcadas:hover img {
+	-moz-transform: scale(1.6);
+	-webkit-transform: scale(1.8);
+	transform: scale(1.3);
+}
+#cadastro {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    color: #591902;
+    background-color: rgba(191, 167, 153, 0.9);
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+}
+#cadastro h2 {
+    position: relative;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding-top: 15px;
+}
+#cadastro h4{
+    color: #fff;
+    position:relative;
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+.cadas input {
+    width: 50%;
+    margin-top: 20px;
+    background: rgba(255, 255, 255, 0.5);
+    border: none;
+    outline: none;
+    color:#591902;
+    border-radius: 35px;
+    padding: 10px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    letter-spacing: 1px;
+    box-shadow: 0 5px 15px rgba(89, 25, 2, 0.05);
+    margin-left: 135px;
+
+  
+
+}
+#cadastro input::placeholder {
+    color:#591902;
+}
+button {
+    width: 25%;
+    height: 30px;
+    border-radius: 35px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #591902;
+    background: rgba(38, 11, 1, 0.5);
+    border: none;
+    outline: none;
+    color: #fff;
+    letter-spacing: 1px;
+    color: rgb(38, 11, 1,);
+    box-shadow: 0 5px 15px rgba(89, 25, 2, 0.24);
+
+}
+button:hover {
+    background: rgb(255, 255, 255,);
+    box-shadow: 0 5px 15px #fff;
+}

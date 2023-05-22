@@ -1,0 +1,315 @@
+#titulo{
+    font-size: xx-large;
+    font-family: monospace;
+    color: aliceblue;
+        width: 100%;
+    height: 40px;
+    background-color: rgb(169, 118, 75);
+    background: rgb(169, 118, 75,0.7);
+    line-height: 40px;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+
+#conteudo{
+    width: 100%;
+    height: auto;
+    background-color: #BFA799;
+    text-align: center;
+    font-family: monospace;
+    font-weight: 100;
+    flex-direction: column;
+    
+}
+#conteudo h1{
+    color: white
+}
+#catalogo{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 20px;
+}
+#generos{
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  row-gap: 15px;
+}
+#generos .livro{
+  width: 150px;
+  height: auto;
+  padding: 10px 10px;
+  background-color: rgb(255, 255, 255);
+  background: rgba(255, 255, 255, 0.7);
+  text-align: justify;
+}
+.livro{
+    width: 200px;
+    height: auto;
+    padding: 10px 10px;
+    background-color: rgb(255, 255, 255);
+    background: rgba(255, 255, 255, 0.7);
+    text-align: left;
+}
+.livro h2 {
+  font-size: larger;
+  
+}
+.imgliv{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.imgliv img{
+    width: 100%;
+}
+
+footer{
+    width: 100%;
+    height: 40px;
+    background-color: #260B01;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container,
+.container-fluid,
+.container-xxl,
+.container-xl,
+.container-lg,
+.container-md,
+.container-sm {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  margin-right: auto;
+  margin-left: auto;
+}
+#team{
+    align-items: center;
+}
+.team-member {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+.team-member img {
+  width: 14rem;
+  height: 14rem;
+  border: 0.5rem solid rgba(0, 0, 0, 0.1);
+}
+.team-member h4, .team-member .h4 {
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+}
+
+.img-brand {
+  height: 2.75rem;
+}
+#mainNav {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #212529;
+}
+#mainNav .navbar-toggler {
+  padding: 0.75rem;
+  font-size: 0.75rem;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  text-transform: uppercase;
+  font-weight: 700;
+}
+#mainNav .navbar-brand {
+  color: #ffc800;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  letter-spacing: 0.0625em;
+  text-transform: uppercase;
+}
+#mainNav .navbar-brand img {
+  height: 1.5rem;
+}
+#mainNav .navbar-nav .nav-item .nav-link {
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 0.95rem;
+  color: #fff;
+  letter-spacing: 0.0625em;
+}
+#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+  color: #ffc800;
+}
+
+@media (min-width: 992px) {
+  #mainNav {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    border: none;
+    background-color: transparent;
+    transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
+  }
+  #mainNav .navbar-brand {
+    font-size: 1.5em;
+    transition: font-size 0.3s ease-in-out;
+  }
+  #mainNav .navbar-brand img {
+    height: 2rem;
+    transition: height 0.3s ease-in-out;
+  }
+  #mainNav.navbar-shrink {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #212529;
+  }
+  #mainNav.navbar-shrink .navbar-brand {
+    font-size: 1.25em;
+  }
+  #mainNav.navbar-shrink .navbar-brand svg,
+  #mainNav.navbar-shrink .navbar-brand img {
+    height: 1.5rem;
+  }
+  #mainNav .navbar-nav .nav-item {
+    margin-right: 1rem;
+  }
+  #mainNav .navbar-nav .nav-item:last-child {
+    margin-right: 0;
+  }
+}
+/* FLEX DIRECTION */
+
+/*#flexexample{
+    display: flex;
+}
+
+#flexexamplereverse{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#flexexamplecolumn{
+    display: flex;
+    flex-direction: column;
+}
+
+#flexexamplecolumnreverse{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+ JUSTIFY START 
+
+#justifyexample{
+    display: flex;
+    justify-content: flex-start;
+}
+
+#justifyendexample{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#justifycenterexample{
+    display: flex;
+    justify-content: center;
+}
+
+#justifyspacebetweenexample{
+    display: flex;
+    justify-content: space-between;
+}
+
+#justifyspacearoundexample{
+    display: flex;
+    justify-content: space-around;
+}
+
+ FLEX WRAP 
+#nowrapexample{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#wrapexample{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#wrapreverseexample{
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+ ALIGN ITEM 
+
+#alignexample{
+    display: flex;
+    align-items: flex-start;
+}
+
+#alignendexample{
+    display: flex;
+    align-items: flex-end;
+}
+
+#aligncenterexample{
+    display: flex;
+    align-items: center;
+}
+
+#alignstretchexample{
+    display: flex;
+    align-items: stretch;
+}
+
+ ALIGN CONTENT 
+
+#aligncontentexample{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+#aligncontentendexample{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+
+#aligncontentcenterexample{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+#aligncontentspacebetweenexample{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+#aligncontentspacearoundexample{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+ GAP 
+
+#aligncontentcentergapexample{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 20px;
+}
